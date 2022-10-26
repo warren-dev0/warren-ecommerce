@@ -1,0 +1,66 @@
+:root {
+    --almond: #F2E5D7;
+    --melon: #FFBCB5;
+    --copper-crayola: #C97D60;
+    --liver-organ: #63372C;
+    --raisin-black: #262322;
+}
+
+.shop-name {
+    background-color: #FFBCB5;
+    color: #262322;
+    font-size: 5rem;
+    padding: 2rem;
+}
+
+@media (max-width: 768px) {
+    .shop-name {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .shop-name {
+        font-size: 2rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .shop-name {
+        font-size: 6rem;
+    }
+}
+
+.navbar {
+    background-color: #F2E5D7;
+}
+
+ul .dropdown-menu {
+    background-color: #F2E5D7;
+}
+
+.clothes {
+    background-color: #FFBCB5;
+}
+
+.clothes .card {
+    width: 18rem;
+    cursor: pointer;
+}
+
+.clothes .card h5, p {
+    color: #262322;
+}
+
+.card-img-top {
+    margin-top: 3rem;
+    margin-bottom: .5rem;
+}
+
+.bar-nav div.col-12 {
+    background-color: #FFBCB5;
+}
+
+.row .carousel {
+    background-color: #FFBCB5;
+}
